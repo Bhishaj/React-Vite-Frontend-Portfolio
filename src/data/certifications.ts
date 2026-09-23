@@ -1,40 +1,45 @@
-import { Certification } from '@/types'
+export interface CertificationItem {
+  name: string
+  issuer: string
+  status: 'completed' | 'in-progress' | 'planned'
+  logoKey: string
+}
 
-export const certifications: Certification[] = [
+export const certifications: CertificationItem[] = [
   {
     name: 'AWS Certified Cloud Practitioner (CCP)',
     issuer: 'Amazon Web Services',
     status: 'completed',
-    credentialUrl: '',
+    logoKey: 'aws',
   },
   {
     name: 'Zero Trust Cyber Associate (ZTCA)',
     issuer: 'Zscaler Cyber Academy',
     status: 'completed',
-    credentialUrl: '',
+    logoKey: 'zscaler',
   },
   {
     name: 'Palo Alto Networks Security Fundamentals Certification',
     issuer: 'Palo Alto Networks',
     status: 'completed',
-    credentialUrl: '',
+    logoKey: 'paloalto',
   },
   {
     name: 'Palo Alto Networks Cloud Security Certification',
     issuer: 'Palo Alto Networks',
     status: 'completed',
-    credentialUrl: '',
+    logoKey: 'paloalto',
   },
   {
     name: 'Web Development',
     issuer: 'Internshala Trainings',
     status: 'completed',
-    credentialUrl: '',
+    logoKey: 'internshala',
   },
   {
     name: 'Zscaler ZTE Administrator',
     issuer: 'Zscaler',
     status: 'planned',
-    credentialUrl: '',
+    logoKey: 'zscaler',
   },
 ]

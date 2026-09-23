@@ -6,7 +6,7 @@ export interface NavLink {
 export interface SocialLink {
   label: string
   href: string
-  icon: string // key mapped to react-icon in Socials component
+  icon: string 
 }
 
 export interface SkillGroup {
@@ -52,6 +52,7 @@ export interface Certification {
   issuer: string
   status: 'completed' | 'in-progress' | 'planned'
   date?: string
+  logoKey: string
   credentialUrl?: string
   logo?: string
 }

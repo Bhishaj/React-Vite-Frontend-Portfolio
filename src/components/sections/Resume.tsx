@@ -14,10 +14,6 @@ export default function Resume() {
 
         <div className="glass-card overflow-hidden">
           <div className="flex flex-col items-center justify-between gap-4 border-b border-white/10 p-6 sm:flex-row">
-            <p className="text-sm text-slate-400">
-              Replace <code className="rounded bg-white/10 px-1.5 py-0.5">public/assets/resume.pdf</code> with your
-              latest resume — this viewer and the download button update automatically.
-            </p>
             <div className="flex shrink-0 gap-3">
               <a href={profile.resumePdf} target="_blank" rel="noopener noreferrer" className="btn-outline">
                 <FaExternalLinkAlt /> View Online
