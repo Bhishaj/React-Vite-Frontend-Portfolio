@@ -2,7 +2,7 @@
 
 A personal portfolio website showcasing my work in Network Security, Zero Trust Architecture, and Cloud Security — built as a fully responsive single-page application.
 
-**Live site:** 
+**Live site:** Click to Visit 👉 https://portfolio-tan-psi-16.vercel.app/
 
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react) ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript) ![Tailwind](https://img.shields.io/badge/Tailwind-3-38BDF8?logo=tailwindcss) ![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite)
 
